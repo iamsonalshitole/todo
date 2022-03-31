@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./home.css" />
+    <script src="./home.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <h1 id="heading">TO DO LIST</h1>
+
+    <div id="container">
+      <div id="form-container">
+        <input
+          type="text"
+          id="add-task"
+          name=""
+          placeholder="Add to do task here..."
+          value=""
+        />
+        <button type="button" onclick="addTodo()" id="add-button" name="button">
+          Submit
+        </button>
+      </div>
+      <div id="to-do-container"></div>
+    </div>
+  </body>
+</html>
